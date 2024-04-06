@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">3 suites</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Run1" class="navigator-link">
+              <span class="suite-name border-skipped">Run1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Run1" class="navigator-link ">
+                    <span>C:\Users\satish\Documents\workspace-spring-tool-suite-4-4.19.0.RELEASE\Sita-master\CucumberTest.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Run1" class="navigator-link ">
+                    <span class="test-stats">12 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Run1" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Run1" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Run1" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Run1" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Run1" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,  1 skipped,  2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Run1" class="hide-methods skipped suite-Run1"> (hide)</a> <!-- hide-methods skipped suite-Run1 -->
+                      <a href="#" panel-name="suite-Run1" class="show-methods skipped suite-Run1"> (show)</a> <!-- show-methods skipped suite-Run1 -->
+                    </span>
+                    <div class="method-list-content skipped suite-Run1">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run1" title="com.zensar.runner.ASSiteListPage" class="method navigator-link" hash-for-method="feature(null)">feature(null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Run1 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Run1" class="hide-methods passed suite-Run1"> (hide)</a> <!-- hide-methods passed suite-Run1 -->
+                      <a href="#" panel-name="suite-Run1" class="show-methods passed suite-Run1"> (show)</a> <!-- show-methods passed suite-Run1 -->
+                    </span>
+                    <div class="method-list-content passed suite-Run1">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run1" title="com.zensar.runner.InitializeExecution" class="method navigator-link" hash-for-method="stub">stub</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run1" title="com.zensar.runner.ConcludeExecution" class="method navigator-link" hash-for-method="stub">stub</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Run1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Conclusion_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Conclusion Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Conclusion_Suite" class="navigator-link ">
+                    <span>C:\Users\satish\Documents\workspace-spring-tool-suite-4-4.19.0.RELEASE\Sita-master\Conclude.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Conclusion_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Conclusion_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Conclusion_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Conclusion_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Conclusion_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Conclusion_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Conclusion_Suite" class="hide-methods passed suite-Conclusion_Suite"> (hide)</a> <!-- hide-methods passed suite-Conclusion_Suite -->
+                      <a href="#" panel-name="suite-Conclusion_Suite" class="show-methods passed suite-Conclusion_Suite"> (show)</a> <!-- show-methods passed suite-Conclusion_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Conclusion_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Conclusion_Suite" title="com.zensar.runner.ConcludeExecution" class="method navigator-link" hash-for-method="stub">stub</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Conclusion_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Intialization_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Intialization Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Intialization_Suite" class="navigator-link ">
+                    <span>C:\Users\satish\Documents\workspace-spring-tool-suite-4-4.19.0.RELEASE\Sita-master\Initialize.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Intialization_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Intialization_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Intialization_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Intialization_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Intialization_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Intialization_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Intialization_Suite" class="hide-methods passed suite-Intialization_Suite"> (hide)</a> <!-- hide-methods passed suite-Intialization_Suite -->
+                      <a href="#" panel-name="suite-Intialization_Suite" class="show-methods passed suite-Intialization_Suite"> (show)</a> <!-- show-methods passed suite-Intialization_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Intialization_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Intialization_Suite" title="com.zensar.runner.InitializeExecution" class="method navigator-link" hash-for-method="stub">stub</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Intialization_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Run1" class="panel Run1">
+          <div class="suite-Run1-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.zensar.runner.ASSiteListPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="feature(null)">
+                  </a> <!-- feature(null) -->
+                  <span class="method-name">feature</span>
+                  <span class="parameters">(null)</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Could not initialize class com.zensar.utilities.RuntimeAnnotations
+	at com.zensar.runner.ASSiteListPage.setUpClass(ASSiteListPage.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at com.zensar.utilities.RuntimeAnnotations.&lt;clinit&gt;(RuntimeAnnotations.java:34)
+	at com.zensar.runner.TestRunner1.setUpClass(TestRunner1.java:25)
+	... 20 more
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Cucmber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Run1-class-skipped -->
+          <div class="suite-Run1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.zensar.runner.ConcludeExecution</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="stub">
+                  </a> <!-- stub -->
+                  <span class="method-name">stub</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Run1-class-passed -->
+          <div class="suite-Run1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.zensar.runner.InitializeExecution</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="stub">
+                  </a> <!-- stub -->
+                  <span class="method-name">stub</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Run1-class-passed -->
+        </div> <!-- panel Run1 -->
+        <div panel-name="suite-Conclusion_Suite" class="panel Conclusion_Suite">
+          <div class="suite-Conclusion_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.zensar.runner.ConcludeExecution</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="stub">
+                  </a> <!-- stub -->
+                  <span class="method-name">stub</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Conclusion_Suite-class-passed -->
+        </div> <!-- panel Conclusion_Suite -->
+        <div panel-name="suite-Intialization_Suite" class="panel Intialization_Suite">
+          <div class="suite-Intialization_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.zensar.runner.InitializeExecution</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="stub">
+                  </a> <!-- stub -->
+                  <span class="method-name">stub</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Intialization_Suite-class-passed -->
+        </div> <!-- panel Intialization_Suite -->
+        <div panel-name="test-xml-Run1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\satish\Documents\workspace-spring-tool-suite-4-4.19.0.RELEASE\Sita-master\CucumberTest.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite configfailurepolicy=&quot;continue&quot; thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Run1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Runner 1&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;tags&quot; value=&quot;not @42&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zensar.runner.ConcludeExecution&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Runner 1 --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Runner 2&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;tags&quot; value=&quot;not @42&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zensar.runner.Debugger&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Runner 2 --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Runner 4&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;tags&quot; value=&quot;not @42&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zensar.runner.InitializeExecution&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Runner 4 --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Runner 5&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;tags&quot; value=&quot;not @42&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zensar.runner.TestRunner1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Runner 5 --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Runner 6&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;tags&quot; value=&quot;not @42&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zensar.runner.TestRunner2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Runner 6 --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Runner 7&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;tags&quot; value=&quot;not @42&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zensar.runner.TestRunner3&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Runner 7 --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Runner 8&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;tags&quot; value=&quot;not @42&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zensar.runner.ASCertificationPage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Runner 8 --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Runner 9&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;tags&quot; value=&quot;not @42&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zensar.runner.ASLandingPage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Runner 9 --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Runner 10&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;tags&quot; value=&quot;not @42&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zensar.runner.ASSiteListPage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Runner 10 --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Runner 11&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;tags&quot; value=&quot;not @42&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zensar.runner.ASWorkOrderListPage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Runner 11 --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Runner 12&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;tags&quot; value=&quot;not @42&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zensar.runner.Sanity&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Runner 12 --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Runner 13&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;tags&quot; value=&quot;not @42&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zensar.runner.Regression&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Runner 13 --&gt;
+&lt;/suite&gt; &lt;!-- Run1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Conclusion_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\satish\Documents\workspace-spring-tool-suite-4-4.19.0.RELEASE\Sita-master\Conclude.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite configfailurepolicy=&quot;continue&quot; name=&quot;Conclusion Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Conclude 1&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;tags&quot; value=&quot;@Runner1&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zensar.runner.ConcludeExecution&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Conclude 1 --&gt;
+&lt;/suite&gt; &lt;!-- Conclusion Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Intialization_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\satish\Documents\workspace-spring-tool-suite-4-4.19.0.RELEASE\Sita-master\Initialize.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite configfailurepolicy=&quot;continue&quot; thread-count=&quot;1&quot; name=&quot;Intialization Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Init 1&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;tags&quot; value=&quot;@Runner1&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zensar.runner.InitializeExecution&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Init 1 --&gt;
+&lt;/suite&gt; &lt;!-- Intialization Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Run1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Run1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Runner 1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Runner 2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Runner 4 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Runner 5 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Runner 6 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Runner 7 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Runner 8 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Runner 9 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Runner 10 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Runner 11 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Runner 12 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Runner 13 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Conclusion_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Conclusion Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Conclude 1 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Intialization_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Intialization Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Init 1 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Run1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Run1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">feature</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Conclusion_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Conclusion Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Intialization_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Intialization Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Run1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Run1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Run1');
+function tableData_Run1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'stub')
+data.setCell(0, 2, 'com.zensar.runner.InitializeExecution')
+data.setCell(0, 3, 0);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'stub')
+data.setCell(1, 2, 'com.zensar.runner.ConcludeExecution')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'feature')
+data.setCell(2, 2, 'com.zensar.runner.ASSiteListPage')
+data.setCell(2, 3, 0);
+window.suiteTableData['Run1']= { tableData: data, tableDiv: 'times-div-Run1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 505 ms</span>
+              <div id="times-div-Run1">
+              </div> <!-- times-div-Run1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Conclusion_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Conclusion Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Conclusion_Suite');
+function tableData_Conclusion_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'stub')
+data.setCell(0, 2, 'com.zensar.runner.ConcludeExecution')
+data.setCell(0, 3, 1);
+window.suiteTableData['Conclusion_Suite']= { tableData: data, tableDiv: 'times-div-Conclusion_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 ms</span>
+              <div id="times-div-Conclusion_Suite">
+              </div> <!-- times-div-Conclusion_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Intialization_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Intialization Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Intialization_Suite');
+function tableData_Intialization_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'stub')
+data.setCell(0, 2, 'com.zensar.runner.InitializeExecution')
+data.setCell(0, 3, 1);
+window.suiteTableData['Intialization_Suite']= { tableData: data, tableDiv: 'times-div-Intialization_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 ms</span>
+              <div id="times-div-Intialization_Suite">
+              </div> <!-- times-div-Intialization_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Run1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Run1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Conclusion_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Conclusion Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Intialization_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Intialization Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Run1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Conclusion_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Intialization_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Run1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zensar.runner.ConcludeExecution</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">stub</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zensar.runner.Debugger</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUpClass(not @42)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zensar.runner.InitializeExecution</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initializeExecutionModel</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zensar.runner.ConcludeExecution</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">endExecution</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zensar.runner.InitializeExecution</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">stub</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zensar.runner.TestRunner1</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUpClass(not @42)</span>
+                <span class="method-start">37 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zensar.runner.TestRunner2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUpClass(not @42)</span>
+                <span class="method-start">415 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zensar.runner.Debugger</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">498 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zensar.runner.TestRunner1</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">498 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zensar.runner.TestRunner2</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">498 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zensar.runner.TestRunner3</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUpClass(not @42)</span>
+                <span class="method-start">515 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zensar.runner.ASCertificationPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUpClass(not @42)</span>
+                <span class="method-start">515 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zensar.runner.ASLandingPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUpClass(not @42)</span>
+                <span class="method-start">515 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zensar.runner.TestRunner3</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">528 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zensar.runner.ASCertificationPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">528 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zensar.runner.ASLandingPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">534 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zensar.runner.ASSiteListPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUpClass(not @42)</span>
+                <span class="method-start">541 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zensar.runner.ASWorkOrderListPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUpClass(not @42)</span>
+                <span class="method-start">541 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zensar.runner.Sanity</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUpClass(not @42)</span>
+                <span class="method-start">548 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">564 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zensar.runner.ASWorkOrderListPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">570 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zensar.runner.ASSiteListPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">572 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zensar.runner.Regression</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUpClass(not @42)</span>
+                <span class="method-start">580 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">596 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Conclusion_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zensar.runner.ConcludeExecution</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">stub</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">endExecution</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Intialization_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zensar.runner.InitializeExecution</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initializeExecutionModel</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">stub</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
